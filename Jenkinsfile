@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    tools{nodejs "MyNodeJS"}
     stages{
         stage("test"){
             steps{
